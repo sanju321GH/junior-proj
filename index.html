@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(27, 66%, 92%);
+    }
+  </style>
+</head>
+<body>
+  <div id="firstbox">
+   <div style="position: relative; bottom: 15px;">
+     <p style="color: white;">My balance</p>
+     <h1 style="color: white;">$921.48</h1>
+   </div>
+    <img src="./images/logo.svg" alt="">
+
+  </div>
+
+  <div id="secondbox">
+    <h1 style="position: relative; bottom: 20px;">Spending - Last 7 days</h1>
+      <div id="sub-box">
+       <div id="monday" class="days" style="margin-left: 15px;"> 
+         <p>mon</p>
+       </div>
+       <div id="tuesday" class="days"> 
+         <p>tue</p>
+       </div>
+       <div id="wednesday" class="days"> 
+         <p>wed</p>
+       </div>
+       <div id="thursaday" class="days"> 
+         <p>thu</p>
+       </div> 
+        <div id="friday" class="days"> 
+         <p>fri</p>
+       </div>
+       <div id="saturday" class="days"> 
+         <p>sat</p>
+       </div>
+       <div id="sunday" class="days"> 
+         <p>sun</p>
+       </div>
+      </div>
+    <hr>
+    <div id="shape1"></div>
+    <label for="shape1" id="l1">$17.45</label>
+    <div id="shape2"></div>
+    <label for="shape2" id="l2">$34.91</label>
+    <div id="shape3"></div>
+    <label for="shape3" id="l3">$52.36</label>
+    <div id="shape4"></div>
+    <label for="shape4" id="l4">$31.07</label>
+    <div id="shape5"></div>
+    <label for="shape5" id="l5">$23.39</label>
+    <div id="shape6"></div>
+    <label for="shape6" id="l6">$43.38</label>
+    <div id="shape7"></div>
+    <label for="shape7" id="l7">$25.48</label>
+    <div id="matter">
+
+       <div id="sub-box2">
+         <p style="margin-bottom: 5px;">Total this month</p>
+         <h1 style="margin-top: 2px;">$478.33</h1>
+       </div>
+      
+        <div id="sub-box3">
+         <h1 style="font-size: 14px; margin-bottom: 2px;">+2.4%</h1>
+         <p style="margin-top: 1px;">from last month</p>
+        </div>
+    </div>
+    </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
